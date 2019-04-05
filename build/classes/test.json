@@ -1,0 +1,62 @@
+{
+	"code": 0,
+	"msg": "操作成功！",
+	"data": [
+		{
+			"id": "78",
+			"subSpecialtyCode": "090101",
+			"classCode": "0901",
+			"subSpecialtyName": "农学",
+			"className": "植物生产类"
+		},
+		{
+			"id": "79",
+			"subSpecialtyCode": "090102",
+			"classCode": "0901",
+			"subSpecialtyName": "园艺",
+			"className": "植物生产类"
+		},
+		{
+			"id": "80",
+			"subSpecialtyCode": "090103",
+			"classCode": "0901",
+			"subSpecialtyName": "植物保护",
+			"className": "植物生产类"
+		},
+		{
+			"id": "81",
+			"subSpecialtyCode": "090701",
+			"classCode": "0901",
+			"subSpecialtyName": "草业科学",
+			"className": "植物生产类"
+		},
+		{
+			"id": "82",
+			"subSpecialtyCode": "100806T",
+			"classCode": "0901",
+			"subSpecialtyName": "中草药栽培与鉴定",
+			"className": "植物生产类"
+		},
+		{
+			"id": "83",
+			"subSpecialtyCode": "090106",
+			"classCode": "0901",
+			"subSpecialtyName": "设施农业科学与工程",
+			"className": "植物生产类"
+		},
+		{
+			"id": "84",
+			"subSpecialtyCode": "090105",
+			"classCode": "0901",
+			"subSpecialtyName": "种子科学与工程",
+			"className": "植物生产类"
+		},
+		{
+			"id": "85",
+			"subSpecialtyCode": "120302",
+			"classCode": "0901",
+			"subSpecialtyName": "农村区域发展",
+			"className": "植物生产类"
+		}
+	]
+}

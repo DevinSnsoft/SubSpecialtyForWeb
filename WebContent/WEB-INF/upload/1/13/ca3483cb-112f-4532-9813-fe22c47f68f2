@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <conio.h>
+#define LEN  20
+    int main()
+   {
+   	char password [LEN];
+   	char confirmation[LEN];
+   	char confirmation1[LEN];
+   	int tryAgain = 0;
+   	do
+   	   { 
+		  printf("-------创建密码-------\n");
+   	      printf("请输入你的管理密码：");
+		  scanf("%s",password);
+		  printf("请确认你的管理密码 :");
+		  scanf("%s",confirmation);
+		  }while(strcmp(password,confirmation));
+		  printf(" 密码设置成功！你的密码为%s\n",password);
+		  printf("按任意键开始登录系统.....\n");
+		  getch();
+		  system("cls");
+		  printf("-------登录系统-------\n");
+		  printf("请输入密码：");
+		  scanf("%s",confirmation1);
+		  while(!strcmp(password,confirmation1))
+		  {
+		  	tryAgain++;
+		  	if(tryAgain<3)
+		    printf("错误%d次！请重新输入：",tryAgain);
+		  	    else
+		  	    
+		  	break;
+		  	system("cls");
+		  	printf("-------输出结果-------\n");
+		  	if(tryAgain>=3)
+		  	{
+		  	printf("对不起，3次密码错误，系统退出！\n");
+		  	exit(-1);
+			  }
+			   else 
+			   {
+	                 printf("欢迎你，管理员！\n");		   }
+		  }
+		  
+		  
+		  return 0;
+}
+
